@@ -1,0 +1,72 @@
+server:
+  port: 1807
+
+spring:
+  application:
+    name: sboot-kafka-consumer
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: my-group-id
+
+app:
+  kafka:
+    consumer:
+      topic: my-topic
+
+
+
+
+aggregator.eureka.enabled: true
+
+params:
+  eureka:
+    host: localhost
+
+management:
+  endpoints:
+    web.exposure.include: "*"
+    web.base-path: /actuator
+    web.enable.include: health
+  endpoint:
+    health:
+      show-details: ALWAYS
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+    enabled: true
+  swagger-ui:
+    path: /swagger-ui.html
+    operations-sorter: method # alpha
+    tags-sorter: alpha
+    # Activer le mode "try it out" pour tous les endpoints (désactivée sinon)
+    try-it-out-enabled: true
+  show-actuator: false # activer sinon pour voir les endpoints actuator dans le swagger.
+
+swagger-params:
+  enabled: true
+  issuerUri: http://localhost:8760 #${params.oauth2.issuerUri}
+  servers:
+    liste:
+      - uri: http://localhost:${server.port}
+        description: Local environment
+      - uri: http://10.0.0.137:${server.port}
+        description: Development environment
+      - uri: http://10.0.0.500:${server.port}
+        description: Homologation environment
+      - uri: http://10.0.0.600:${server.port}
+        description: Production environment
+  aggregator:
+    enabled: ${aggregator.eureka.enabled:false}
+    cors:
+      uri: http://localhost:8768
+
+caller:
+  destination:
+    client0:
+      resourceUri:
+      clientId:
+      clientSecret: 
+      scopes: 
+      registrationId:

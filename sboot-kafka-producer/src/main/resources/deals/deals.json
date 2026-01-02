@@ -1,0 +1,12 @@
+[
+	{"transactionId":"1cc2c76b-ff3f-49e9-9196-c1eee9da7294","make":"Toyota","model":"Corolla","year":"2020","saleTimestamp":"20221121","dealerId":"100010","dealerName":"Price Motors","state":"New York","price":"31000"},
+	{"transactionId":"46912ae7-3949-4d32-a4b5-98f3e7172650","make":"Toyota","model":"Highlander","year":"2020","saleTimestamp":"20221119","dealerId":"100010","dealerName":"Price Motors","state":"New York","price":"12000"},
+	{"transactionId":"1944b626-cd21-42f0-9ceb-cd223d3c9b18","make":"Toyota","model":"Sienna","year":"2022","saleTimestamp":"20221119","dealerId":"100050","dealerName":"The Car Guys","state":"Texas","price":"12000"},
+	{"transactionId":"410c7f0c-cdfb-4aaa-b7a4-e02fb06784f8","make":"Toyota","model":"Highlander","year":"2021","saleTimestamp":"20221113","dealerId":"100030","dealerName":"Gulf Toyota","state":"California","price":"20000"},
+	{"transactionId":"8a78e38b-2111-4d47-8285-0924f4bf057c","make":"Toyota","model":"Highlander","year":"2020","saleTimestamp":"20221119","dealerId":"100050","dealerName":"The Car Guys","state":"Texas","price":"20000"},
+	{"transactionId":"e9485515-6153-4917-921f-0eef7acd8e58","make":"Toyota","model":"Camry","year":"2020","saleTimestamp":"20221113","dealerId":"100010","dealerName":"Price Motors","state":"Texas","price":"22000"},
+	{"transactionId":"c4b5d483-7c28-4bb7-a61c-5bb0414f7bdf","make":"Toyota","model":"Corolla","year":"2020","saleTimestamp":"20221119","dealerId":"100060","dealerName":"Friendly Neighbour Toyota","state":"California","price":"12000"},
+	{"transactionId":"16acb461-7967-4511-834b-59d1831c906f","make":"Toyota","model":"Corolla","year":"2020","saleTimestamp":"20221117","dealerId":"100050","dealerName":"The Car Guys","state":"Texas","price":"20000"},
+	{"transactionId":"ace6f7c5-71b8-422c-9200-e5235751282f","make":"Toyota","model":"Corolla","year":"2021","saleTimestamp":"20221117","dealerId":"100030","dealerName":"Gulf Toyota","state":"New Jersey","price":"12000"},
+	{"transactionId":"8717c9f2-662d-4ac1-9aad-11af9ce47830","make":"Toyota","model":"Sienna","year":"2022","saleTimestamp":"20221121","dealerId":"100060","dealerName":"Friendly Neighbour Toyota","state":"Texas","price":"31000"}
+]
