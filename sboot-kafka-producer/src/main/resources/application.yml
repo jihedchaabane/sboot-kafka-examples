@@ -5,7 +5,7 @@ spring:
   application:
     name: sboot-kafka-producer
   kafka:
-    bootstrap-servers: localhost:9092
+    bootstrap-servers: 192.168.1.27:9092
 
 app:
   kafka:
